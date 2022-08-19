@@ -14,5 +14,6 @@ int main(){
     strcpy(book.subject,"project");
     book.book_id = 12345;
 
-    printf("test:$s\n",book.title);
+    printf("test:%s\n",book.title);
+    printf("abc:%s\n",book.author);
 }
